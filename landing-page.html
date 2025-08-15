@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Agency</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; }
+  header { background:#3498db; color:white; padding:20px; text-align:center; }
+  nav a { color:white; margin:0 10px; text-decoration:none; }
+  section { padding:50px; text-align:center; }
+  .gallery img { width:30%; margin:1%; border-radius:5px; }
+  footer { background:#333; color:white; text-align:center; padding:20px; }
+  @media(max-width:768px){ .gallery img{width:80%; margin:10px 0;} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Explore The World</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We provide the best travel experiences worldwide.</p>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2>Gallery</h2>
+  <img src="https://via.placeholder.com/300" alt="Travel 1">
+  <img src="https://via.placeholder.com/300" alt="Travel 2">
+  <img src="https://via.placeholder.com/300" alt="Travel 3">
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name"><br><br>
+    <input type="email" placeholder="Email"><br><br>
+    <textarea placeholder="Message"></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Travel Agency</p>
+</footer>
+</body>
+</html>
